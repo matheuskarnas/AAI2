@@ -61,13 +61,13 @@ app.get("/projetos/:projeto", (req, res) => {
         "Este projeto foi desenvolvido como parte de um curso focado em Next.js, onde aprendi a utilizar as diferentes camadas de renderização (estática, server-side e incremental). Além disso, o projeto integra a biblioteca de mapas Leaflet para exibir localizações de forma interativa, proporcionando uma experiência prática no uso de tecnologias modernas para desenvolvimento web.",
       tecnologias: [
         "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg",
+        "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg",
         "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
         "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
         "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
         "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg",
         "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original-wordmark.svg",
         "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg",
-        "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/less/less-plain-wordmark.svg",
       ],
     });
   }
@@ -88,7 +88,6 @@ app.get("/projetos/:projeto", (req, res) => {
         "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original-wordmark.svg",
         "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg",
         "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original-wordmark.svg",
-        "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original-wordmark.svg",
         "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg",
       ],
     });
@@ -101,15 +100,17 @@ app.get("/projetos/:projeto", (req, res) => {
       url: "https://unidos-helpnei.vercel.app/",
       descricao:
         "Este é meu segundo projeto na faculdade, com previsão de entrega em 25/05/2025, desenvolvido para um cliente real. O projeto foi conduzido utilizando a metodologia Scrum, onde atuei como Product Owner. O objetivo principal foi criar um site para monitorar o desempenho dos patrocinadores e seu impacto no empreendedorismo, além de facilitar a adesão de novos usuários e empresas patrocinadoras. O maior desafio foi trabalhar diretamente com um cliente real, compreendendo suas necessidades e expectativas. O projeto foi desenvolvido em equipe, utilizando metodologias ágeis para garantir uma entrega eficiente, de alta qualidade e alinhada às demandas do cliente.",
-        tecnologias: [
-            "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg",
-            "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
-            "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
-            "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
-            "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg",
-            "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original-wordmark.svg",
-            "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg",
-          ],
+      tecnologias: [
+        "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg",
+        "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
+        "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
+        "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
+        "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg",
+        "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original-wordmark.svg",
+        "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg",
+        "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vercel/vercel-original.svg",
+        "https://seeklogo.com/images/S/supabase-logo-DCC676FFE2-seeklogo.com.png",
+      ],
     });
   }
 });
